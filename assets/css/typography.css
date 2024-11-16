@@ -1,0 +1,43 @@
+body,
+.nav-link {
+  font-family: var(--font-barlow);
+  color: var(--white);
+}
+
+h1,
+button {
+  font-family: var(--font-bellefair);
+}
+
+.nav-link {
+  font-size: var(--font-size-desktop-text-preset-8);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  & .number {
+    letter-spacing: 2.7px;
+  }
+}
+
+.text_subtitle {
+  color: var(--blue-300);
+  font-size: var(--font-size-desktop-text-preset-5);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.space {
+  color: var(--color-white);
+  
+  font-size: var(--font-size-desktop-text-preset-1);
+  font-family: Bellefair;
+  text-transform: uppercase;
+}
+
+.text_description {
+  color: var(--blue-300);
+  font-size: var(--font-size-desktop-text-preset-9);
+  line-height: 180%;
+  font-family: var(--font-barlow);
+}
+
