@@ -1,5 +1,5 @@
 /* Importing CSS files from the assets/css folder */
 @import url('variaveis.css');
-@import url('style.css');
+@import url('index.css');
 @import url('typography.css');
 @import url('colors.css');
