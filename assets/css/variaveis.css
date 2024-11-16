@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap');
+
+:root {
+  --blue-900: #0B0D17;
+  --blue-300: #D0D6F9;
+  --white: #FFFFFF;
+  --font-bellefair: 'Bellefair', serif;
+  --font-barlow: 'Barlow Condensed';
+
+  /* hoover */
+  --border-bottom-nav-hover: 3px solid rgba(255, 255, 255, 0.50);
+  --border-bottom-nav-active: 3px solid var(--color-white, #FFF);
+  --btn-explore-hover: 88px solid rgba(255, 255, 255, 0.10);
+
+  /* Spacing */
+  --spacing-25: 0.125rem;   /* 2px */
+  --spacing-50: 0.25rem;    /* 4px */
+  --spacing-100: 0.5rem;    /* 8px */
+  --spacing-150: 0.75rem;   /* 12px */
+  --spacing-200: 1rem;      /* 16px */
+  --spacing-300: 1.5rem;    /* 24px */
+  --spacing-400: 2rem;      /* 32px */
+  --spacing-500: 2.5rem;    /* 40px */
+  --spacing-600: 3rem;      /* 48px */
+  --spacing-800: 4rem;      /* 64px */
+  --spacing-1000: 5rem;     /* 80px */
+  --spacing-1200: 6rem;     /* 96px */
+  --spacing-1600: 8rem;     /* 128px */
+
+  /* Font size */
+
+  /* 
+  --font-size-desktop-text-preset-2: 100px;
+  --font-size-desktop-text-preset-3: 56px;
+  --font-size-desktop-text-preset-6: 28px;
+  --font-size-desktop-text-preset-7: 14px; */
+  --font-size-desktop-text-preset-4: 32px;
+  --font-size-desktop-text-preset-5: 28px;
+  --font-size-desktop-text-preset-1: 144px;
+  --font-size-desktop-text-preset-8: 16px;
+  --font-size-desktop-text-preset-9: 18px;
+
+  /* background-image */
+  /* home */
+  --bg-image-home-desktop: url('assets/image/home/background-home-desktop.jpg') no-repeat center center/cover;
+  --bg-image-home-tablet: url('assets/image/home/background-home-tablet.jpg') no-repeat center center/cover;
+  --bg-image-home-mobile: url('assets/image/home/background-home-mobile.jpg');
+
+  /* crew */
+  --bg-image-crew-desktop: url('assets/image/crew/background-crew-desktop.jpg');
+  --bg-image-crew-tablet: url('assets/image/crew/background-crew-tablet.jpg');
+  --bg-image-crew-mobile: url('assets/image/crew/background-crew-mobile.jpg');
+
+  /* technology */
+  --bg-image-technology-desktop: url('assets/image/technology/background-technology-desktop.jpg');
+  --bg-image-technology-tablet: url('assets/image/technology/background-technology-tablet.jpg');
+  --bg-image-technology-mobile: url('assets/image/technology/background-technology-mobile.jpg');
+
+  /* destination */
+  --bg-image-destination-desktop: url('assets/image/destination/background-destination-desktop.jpg');
+  --bg-image-destination-tablet: url('assets/image/destination/background-destination-tablet.jpg');
+  --bg-image-destination-mobile: url('assets/image/destination/background-destination-mobile.jpg');
+}
