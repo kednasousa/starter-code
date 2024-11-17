@@ -1,0 +1,53 @@
+body {
+  background-image: url('../image/destination/background-destination-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.container_destination {
+  display: flex;
+  padding: 48px 40px;
+}
+
+.title_destination {
+  color: var(--white);
+  font-family: var(--barlow);
+  font-size: var(--font-size-desktop-text-preset-5);
+  letter-spacing: 4px;
+}
+
+.img_destination {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.nav-link {
+  color: var(--white);
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.subtite_destination {
+  font-family: Bellefair;
+  font-size: var(--font-size-desktop-text-preset-2);
+}
+
+.text_decriptiom {
+  color: var(--blue-300);
+  font-size: var(--font-size-desktop-text-preset-9);
+  line-height: 180%;
+}
+
+.distance_text, .travel_text {
+  color: var(--blue-300);
+  font-size: var(--font-size-desktop-text-preset-9);
+  letter-spacing: 2px;
+}
+
+.distance_num, .travel_num {
+font-family: Bellefair;
+font-size: var(--font-size-desktop-text-preset-6);
+}

@@ -1,0 +1,60 @@
+.crew__bg {
+  background-image: url('../image/crew/background-crew-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container_crew {
+  display: flex;
+  padding: 48px 40px;
+  padding-bottom: 0;
+}
+
+.position {
+  color: var(--white);
+  font-family: var(--bellfair);
+  font-size: var(--font-size-desktop-text-preset-4);
+  opacity: 0.5042;
+}
+
+.name {
+  font-size: var(--font-size-desktop-text-preset-3);
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-280%);
+  align-self: flex-start;
+  gap: 5px;
+}
+
+
+.img_crew {
+  width: 300px;
+  margin-bottom: 0;
+  margin-left: auto;
+  width: 350px;
+}
+
+.page-item {
+  width: 30px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: var(--white);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.page-item.active {
+  background-color: var(--blue-400);
+}
+
+.page-item:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.img_engineer, .img_pilot {
+  border-radius: 40%;
+}
