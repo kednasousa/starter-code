@@ -3,9 +3,11 @@
 :root {
   --blue-900: #0B0D17;
   --blue-300: #D0D6F9;
+  --blue-400: #3955f7;
   --white: #FFFFFF;
   --font-bellefair: 'Bellefair', serif;
   --font-barlow: 'Barlow Condensed';
+  --cyan-300: #6D8B9B;
 
   /* hoover */
   --border-bottom-nav-hover: 3px solid rgba(255, 255, 255, 0.50);
@@ -30,10 +32,10 @@
   /* Font size */
 
   /* 
-  --font-size-desktop-text-preset-2: 100px;
-  --font-size-desktop-text-preset-3: 56px;
   --font-size-desktop-text-preset-6: 28px;
   --font-size-desktop-text-preset-7: 14px; */
+  --font-size-desktop-text-preset-3: 56px;
+  --font-size-desktop-text-preset-2: 96px;
   --font-size-desktop-text-preset-4: 32px;
   --font-size-desktop-text-preset-5: 28px;
   --font-size-desktop-text-preset-1: 144px;
