@@ -1,10 +1,15 @@
 body {
+  color: var(--white);
+  font-family: var(--font-barlow);
+  overflow: hidden;
+}
+
+.home {
   background-image: url('../image/home/background-home-desktop.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: var(--white);
-  font-family: var(--font-barlow);
+
 }
 
 .content_nav {
@@ -71,8 +76,9 @@ body {
     border-bottom: 3px solid rgba(255, 255, 255, 0.50);
   }
 
-  .nav-link.active-white {
-    color: white !important;
+  .nav-link:active {
+    color: white;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.50);
   }
 }
 
@@ -92,6 +98,11 @@ body {
   font-size: var(--font-size-desktop-text-preset-8);
   font-weight: 700;
   letter-spacing: 2.7px;
+}
+
+
+.number {
+  opacity: 0.25;
 }
 
 .container {
