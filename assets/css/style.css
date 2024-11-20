@@ -93,13 +93,17 @@ body {
   border-bottom: 3px solid rgba(255, 255, 255, 0.50);
 }
 
+.nav-link.active {
+  color: white !important;
+  border-bottom: 3px solid white !important;
+}
+
 .num {
   color: var(--white);
   font-size: var(--font-size-desktop-text-preset-8);
   font-weight: 700;
   letter-spacing: 2.7px;
 }
-
 
 .number {
   opacity: 0.25;
