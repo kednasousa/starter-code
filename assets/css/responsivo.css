@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+.home {
+  background-image: url('../image/home/background-home-tablet.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+  body {
+    overflow: auto;
+  }
+
+  header .nav::after {
+    content: none;
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .content_nav {
+    display: flex;
+    min-width: 488px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--spacing-600, 48px);
+    flex: 1 0 0;
+    padding: 0px 0px 0px 15px;
+  }
+
+  .container_img {
+    display: flex;
+    max-width: 160px;
+    padding-left: 40px;
+    align-items: center;
+    gap: 64px;
+    flex: 1 0 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {}
