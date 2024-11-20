@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/image/shared/logo.svg">
   <title>Technology</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+
+<body class="container-fluid p-0">
   <header>
     <div class="content_nav">
       <div class="container_img">
@@ -21,22 +23,97 @@
       </div>
       <div class="nav nav-underline">
         <div class="nav_states">
-          <a class="nav-link active-white" href="index.html"><span class="num">00</span>Home</a>
+          <a class="nav-link" href="index.html"><span class="num">00</span>Home</a>
         </div>
         <div class="nav_states">
-          <a class="nav-link active-white" href="destination.html"><span class="num">01</span>Destination</a>
+          <a class="nav-link" href="destination.html"><span class="num">01</span>Destination</a>
         </div>
         <div class="nav_states">
-          <a class="nav-link active-white" href="crew.html"><span class="num">02</span>Crew</a>
+          <a class="nav-link" href="crew.html"><span class="num">02</span>Crew</a>
         </div>
         <div class="nav_states">
-          <a class="nav-link active-white" aria-current="page" href="technology.html"><span class="num">03</span>Technology</a>
+          <a class="nav-link active" aria-current="page" href="technology.html"><span class="num">03</span>Technology</a>
         </div>
       </div>
     </div>
   </header>
-  <section class="container text-center">
-    <!-- Conteúdo da página Technology -->
+
+  <section class="container p-5 container_thechnology text-start align-items-center">
+    <section class="crewA" id="vehicle-section">
+      <div class="subtitle_desination">
+        <h1 class="text-start text-uppercase title_destination"><span class="number me-2">03</span>SPACE LAUNCH 101</h1>
+      </div>
+      <div class="row content__technology justify-content-between">
+        <ul class="col-2 menu d-flex align-items-center text-center">
+          <li class="nav-link btn_num active" aria-current="page" id="vehicle">1</li>
+          <li class="nav-link btn_num" aria-current="page" id="spaceport">2</li>
+          <li class="nav-link btn_num" aria-current="page" id="capsule">3</li>
+        </ul>
+
+        <div class="col-6">
+          <p class="position text-uppercase">THE TERMINOLOGY…</p>
+          <p class="text-start text-uppercase name">LAUNCH VEHICLE</p>
+          <p class="text-start text_description">
+            A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's
+            surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in
+            operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+          </p>
+        </div>
+        <div class="col-4 text-end">
+          <img class="img-fluid img img_technology" src="./assets/image/technology/image-launch-vehicle-portrait.jpg"
+            alt="Image of the moon">
+        </div>
+      </div>
+    </section>
+
+    <section class="crewA" id="spaceport-section"  style="display: none;">
+      <div class="subtitle_desination">
+        <h1 class="text-start text-uppercase title_destination"><span class="number me-2">03</span>SPACE LAUNCH 101</h1>
+      </div>
+      <div class="row content__technology justify-content-between">
+        <ul class="col-2 menu d-flex align-items-center text-center">
+          <li class="nav-link btn_num active" aria-current="page" id="vehicle">1</li>
+          <li class="nav-link btn_num" aria-current="page" id="spaceport">2</li>
+          <li class="nav-link btn_num" aria-current="page" id="capsule">3</li>
+        </ul>
+
+        <div class="col-6">
+          <p class="position text-uppercase">THE TERMINOLOGY…</p>
+          <p class="text-start text-uppercase name">SPACEPORT</p>
+          <p class="text-start text_description">
+            A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.
+          </p>
+        </div>
+        <div class="col-4 text-end">
+          <img class="img-fluid img img_technology" src="./assets/image/technology/image-spaceport-portrait.jpg" alt="Image of the spaceport">
+        </div>
+      </div>
+    </section>
+
+    <section class="crewA" id="capsule-section" style="display: none;">
+      <div class="subtitle_desination">
+        <h1 class="text-start text-uppercase title_destination"><span class="number me-2">03</span>SPACE LAUNCH 101</h1>
+      </div>
+      <div class="row content__technology justify-content-between">
+        <ul class="col-2 menu d-flex align-items-center text-center">
+          <li class="nav-link btn_num active" aria-current="page" id="vehicle">1</li>
+          <li class="nav-link btn_num" aria-current="page" id="spaceport">2</li>
+          <li class="nav-link btn_num" aria-current="page" id="capsule">3</li>
+        </ul>
+
+        <div class="col-6">
+          <p class="position text-uppercase">THE TERMINOLOGY…</p>
+          <p class="text-start text-uppercase name">SPACE CAPSULE</p>
+          <p class="text-start text_description">
+            A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.
+          </p>
+        </div>
+        <div class="col-4 text-end">
+          <img class="img-fluid img img_technology" src="./assets/image/technology/image-space-capsule-portrait.jpg" alt="Image of the space capsule">
+        </div>
+      </div>
+    </section>
+
   </section>
 
 
@@ -51,6 +128,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
-  <script src="assets/js/main.js"></script>
+    <script src="assets/js/technology.js"></script>
 </body>
+
 </html>
