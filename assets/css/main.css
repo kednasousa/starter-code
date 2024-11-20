@@ -1,8 +1,8 @@
 /* Importing CSS files from the assets/css folder */
 @import url('variaveis.css');
 @import url('typography.css');
-/* @import url('colors.css'); */
 @import url('style.css');
 @import url('destination.css');
 @import url('crew.css');
-/*@import url('technology.css'); */
+@import url('technology.css');
+@import url('responsivo.css');
